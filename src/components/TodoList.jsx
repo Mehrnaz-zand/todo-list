@@ -8,10 +8,10 @@ import "./TodoList.css";
 
 export default function TodoList(todos){
     const [clicked, setClicked] = useState(false);
-    const [edit, setEdit] = useState({
-        id:null, 
-        value:''
-    }) 
+    //const [edit, setEdit] = useState({
+      //  id:null, 
+       // value:''
+    //}) 
 
     function click(){
         setClicked(!clicked)
