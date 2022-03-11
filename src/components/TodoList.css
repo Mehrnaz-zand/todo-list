@@ -1,16 +1,11 @@
-.TodoList {
-  border: 1px solid grey;
-  padding: 20px;
-  border-radius: 4px;
-}
 .list {
   list-style: none;
   text-align: left;
 }
-
-.task:hover {
+li:hover {
   cursor: pointer;
 }
+
 .done {
   text-decoration: line-through;
 }

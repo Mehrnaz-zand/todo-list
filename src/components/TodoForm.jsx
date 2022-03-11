@@ -42,7 +42,11 @@ export default function TodoForm() {
                         title="Add"
                     />
                 </form>
-               <TodoList todos={todos}/>
+                <hr />
+                    {todos.map((todo)=>
+               <TodoList text={todo.text}/>
+                    )}
+           
             </div>
 
         )
