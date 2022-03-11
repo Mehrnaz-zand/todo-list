@@ -10,10 +10,12 @@ export default function TodoForm() {
 
     function handleSubmit(e){
         e.preventDefault();
+     
         let newTodo = {
             id:Math.random()*3, 
             text: input
         }
+       
         setTodos([...todos].concat(newTodo))
         setInput("")
 

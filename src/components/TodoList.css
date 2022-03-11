@@ -11,6 +11,7 @@ li:hover {
 }
 .icon:hover {
   cursor: pointer;
+  color: darkorange;
 }
 .delete {
   display: none;
