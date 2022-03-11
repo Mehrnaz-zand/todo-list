@@ -1,0 +1,29 @@
+.TodoList {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 4px;
+}
+.list {
+  list-style: none;
+  text-align: left;
+}
+
+.task:hover {
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.delete {
+  display: none;
+}
+.list-box {
+  margin: 10px auto;
+  background-color: purple;
+  padding: 10px;
+  border-radius: 4px;
+  color: pink;
+}
